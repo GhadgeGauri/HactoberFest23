@@ -75,6 +75,7 @@ Node* buildTree(string str)
     
     return root;
 }
+// -------here function start height of binary tree
 
 class Solution{
     public:
@@ -88,6 +89,8 @@ class Solution{
         return 1+max(height(node->left)/*height of the left subtree*/,height(node->right)/*height of the right sub tree*/);
     }
 };
+//here function end height of binary tree
+
 
 
 int main()
